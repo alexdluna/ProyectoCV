@@ -1,6 +1,6 @@
 body{ 
     margin: 0;
-    background-color: rgb(190, 204, 231);
+    background-color: rgb(223, 251, 242);
 }
 
 .titulos{
@@ -9,11 +9,11 @@ body{
     margin-bottom: 6px;
     margin-top: 6px;
 }
-#uno{
+#miportafolio{
 font-size: 75px;
 padding-left: 10px;
 }
-#quiensoyid{
+#bio{
         font-size: 50px;
         padding-left: 25px;
         
@@ -22,7 +22,7 @@ padding-left: 10px;
 
 .parrafos{
 color: rgb(6, 4, 4);
-font-size: 50px;
+font-size: 40px;
 font-weight: bold;
 font-style:italic;
 text-align: center;
@@ -31,28 +31,50 @@ margin-bottom: 15px;
 
 }
 
-.contenedor {
-    position: relative; /* Agrega position relative al contenedor */
-    height: 300px; /* Ajusta la altura según tu diseño */
+
+#tituloaficiones{
+font-size: 40px;
+color: rgb(78, 108, 76);
+padding-left: 10px;
 }
 
-.imagen {
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
+.aficionesdescripcion{
+    font-size: 25px;
+    
 }
+#titulohabilidades{
+    font-size: 40px;
+    color: rgb(78, 108, 76);
+    padding-left: 10px;
+    }
+    
+    .habilidadesdescripcion{
+        font-size: 25px;
+    }
 
+.imagenes{
+
+    
+}
 
 
 #footer{
-background-color: rgb(57, 55, 55);
-width: 100%;
-height: 50px;
 
+background-color: rgb(24, 21, 21);
+width: 100%;
+height: 100px;
+
+margin-top: 20px;
 }
 
 #github{
     color: aliceblue;
     font-size: 25px;
-   
-}
+
+    }
+    #google{
+        padding-left: 15px;
+        color: aliceblue;
+        font-size: 25px;
+        
+        }
